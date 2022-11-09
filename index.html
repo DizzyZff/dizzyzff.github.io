@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
-    <link rel="stylesheet" href="./assets/Style/style.css">
+    <link rel="stylesheet" href="./assets/style/style.css">
     <link rel="shortcut icon" href="./assets/ICON/favicon_io/favicon.ico" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,8 +29,95 @@
                     <ion-icon name="chevron-down"></ion-icon>
                 </button>
             </div>
+
+            <div class="sidebar-info_more">
+                <div class="separetor"></div>
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-bpx">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">
+                                Email
+                            </p>
+                            <a href="mailto:desmondzooooom@gmail.com" class="contact-link">desmondzooooom@gmail.com</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-bpx">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">
+                                Github
+                            </p>
+                            <a href="https://github.com/DizzyZff" class="contact-link">github.com/DizzyZff</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-bpx">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">
+                                LinkedIn
+                            </p>
+                            <a href="https://www.linkedin.com/in/hai-zhu-6463021a2/" class="contact-link">linkedin.com/in/hai-zhu-6463021a2/</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </aside>
+        <div class="main-content">
+            <!--navbar-->
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <button class="navbar-link active" data-nav-link>About</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Resume</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Portfolio</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Blog</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Contact</button>
+                    </li>
+                </ul>
+            </nav>
+            <article class="about  active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">
+                        About Me
+                    </h2>
+                </header>
+                <section class="about-text">
+                    <p>
+                        My name is Hai Zhu, currently an undergraduate student studying computer science at New York University. As a result, I have collected essential skills in Python, SQL, Java and etc. Academically, I have many project experiences involving web development skills like react, node.js, and AJAX, software development skills such as objective-oriented programming, data structure and algorithms, and artificial intelligence skills such as machine learning, deep learning, and natural language processing. 
+                    </p>
+                    <p>
+                        Professionally, I have done several real-world projects and internship. For example. when I was a software engineer analyst intern at Accenture, I independently developed a small tool to improve the overall efficiency of the team and assisted in the deliver of knowledge transfer for the client.  Meanwhile, I have developed essential skills like cross-department communication, and time management.
+                    </p>
+                    <p>
+                        For me, I think I am a detailed, industrious fast learner, who can quickly adapt to changes. My previous manager always describes me as trustworthy because I can always finish the job and go beyond.  
+                    </p>
+                </section>
+            </article>
+            <article class="resume" data-page="resume">
+
+                <header>
+                  <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+            </article>
+        </div>
     </main>
+    <script src="./assets/js/script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
 </body>
